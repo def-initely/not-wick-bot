@@ -4,7 +4,7 @@ import {
   GatewayIntentBits,
   type Message,
 } from "discord.js";
-import { logger } from "../lib/logger";
+import { logger } from "./logger";
 import { randomItem, unsolicitedMessages } from "./responses";
 import { commandMap } from "./registry";
 import type { CommandContext } from "./types";

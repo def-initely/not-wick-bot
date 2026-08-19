@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { startNotWick } from "./not-wick/bot";
+import { startNotWick } from "./bot";
 
 const client = startNotWick();
 
